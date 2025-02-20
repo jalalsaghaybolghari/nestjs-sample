@@ -20,7 +20,7 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: integrationninjas
+          app-name: testcode
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLIC_PROFILE }}
           package: .       
 
